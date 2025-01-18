@@ -1,0 +1,13 @@
+.details {
+    background-color: yellow;
+    background-origin: padding-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px; 
+    height: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 20px auto;
+}
