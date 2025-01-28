@@ -1,0 +1,44 @@
+* {
+color: red;
+}
+
+h1{
+color: blue;
+font-size: 50px;
+text-align: center;
+background-color: tomato;
+border: 2px solid rgb(95, 21, 21);
+border-radius: 10px;
+padding: 10px;
+}
+
+div {
+background-color: red;
+width: 100px;
+height: 100px;
+margin: 10px;
+}
+
+.alerta-leve.alerta-importante {
+background-color: greenyellow;
+width: 200px;
+height: 200px;
+}
+
+.alerta-leve
+{
+background-color: yellow;
+color: rgb(210, 218, 0);
+
+}
+
+.alerta-importante {
+background-color: rgb(128, 20, 104);
+color: rgb(164, 3, 164);
+}
+
+#caja {
+border: 10px solid black;
+width: 500px;
+height: 300px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>for</title>
+    
+</head>
+
+<body>
+    <h1> Salarios: </h1>
+
+    <button onclick="sal()">Empezar a jugar con tu salario.</button> <br>
+
+    <p id="sum"></p>
+    <p id="prome"></p>
+    <p id="ariba"></p>
+
+
+    <p id="resultado"></p>
+    <script>
+        const sal = () => {
+            let suma = 0;
+            for (let i = 0; i < 5; i++) {
+                let num = parseFloat(prompt("Ingrese 5 salarios:"));
+                if (isNaN(num)) {
+                    alert("Por favor, ingrese un salario válido.");
+                    i--;
+                } else {
+                    if (num > 1000) {
+                        mayor = num;
+                        i--;
+                    }
+                    suma += num;
+                    console.log(i);
+                }
+            }
+            document.getElementById("sum").innerHTML = "La suma de los salarios es: " + suma;
+            document.getElementById("prome").innerHTML = "El promedio de los salarios es: " + suma / 5;
+            document.getElementById("ariba").innerHTML = "Los salarios que están por encima del promedio son: ";
+        }
+    </script>
+
+</body>
+
+</html>

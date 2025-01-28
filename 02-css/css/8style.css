@@ -1,0 +1,60 @@
+.mi-clase{
+    background-color: rgb(50, 166, 215);
+    width: 500px;
+    height: 100px;
+}
+.clase1{
+    background-color: tomato;
+    text-decoration: line-through;
+    
+}
+.clase2{
+    background-color: rgb(71, 255, 111);
+    text-decoration: overline;
+}
+#clase3{    
+    background-color: rgb(255, 71, 71);
+    text-decoration: underline;
+}
+div{
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 500px;
+}
+.parrafo  {
+    background-color: rgb(255, 71, 71);
+    text-decoration: underline;
+}	
+
+.up{
+    text-transform: uppercase;
+}	
+.down{
+    text-transform: lowercase;
+}
+
+.cap{
+    text-transform: capitalize;
+}	
+.content3{
+    background-color: rgb(255, 71, 71);
+    text-decoration: underline;
+}
+.alineacion{
+    text-align: justify;
+    text-shadow:
+    1px 1px 2px black, /* Sombra de texto con desplazamiento de 1px en X y Y, desenfoque de 2px, color negro */
+    0 0 1em blue,      /* Sombra de texto sin desplazamiento, desenfoque de 1em, color azul */
+    0 0 0.2em blue;    /* Sombra de texto sin desplazamiento, desenfoque de 0.2em, color azul */
+color: white;          /* Color del texto blanco */
+font:
+    1.5em Georgia,     /* Tamaño de fuente de 1.5em, fuente Georgia */
+    "Bitstream Charter", /* Fuente alternativa Bitstream Charter */
+    "URW Bookman L",   /* Fuente alternativa URW Bookman L */
+    "Century Schoolbook L", /* Fuente alternativa Century Schoolbook L */
+    serif;             /* Fuente genérica serif */
+    
+}	
+h1{
+    text-align: center;
+}

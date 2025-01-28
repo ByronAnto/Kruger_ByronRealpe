@@ -1,0 +1,31 @@
+* {
+    color: white;
+
+}
+
+h1 {
+    color: blue;
+    font-size: 50px;
+    text-align: center;
+    background-color: tomato;
+    border: 2px solid rgb(95, 21, 21);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+h2 {
+    color: green;
+    background-color: black;
+    font-size: 20px;
+}
+p {
+    color: red;
+}
+
+body {
+    background-image: url('../images/pngtree-faceted-abstract-background.jpg');
+    background-size: cover;
+    
+
+}

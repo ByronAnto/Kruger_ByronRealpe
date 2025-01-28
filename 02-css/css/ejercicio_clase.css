@@ -1,0 +1,12 @@
+.titulo{
+    text-align: center;
+    text-decoration:underline;
+    text-transform: uppercase;
+    word-spacing: 3px;
+    text-shadow: 2px 2px 4px tomato; 
+}
+.parrafo{
+    word-spacing: -3px;
+    text-indent: 75px;    
+}
+

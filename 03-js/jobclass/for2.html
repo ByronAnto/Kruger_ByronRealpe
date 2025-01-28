@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>for</title>
+</head>
+
+<body>
+    <h1> Sumatoria de 5 números: </h1>
+
+    <button onclick="mat()">Empezar el juego</button> <br>
+    <p id="resultado"></p>
+    <script>
+        const mat = () => {
+            let suma = 0;
+            for (let i = 0; i < 5; i++) {
+                let num = parseInt(prompt("Ingrese un número"));
+                if (isNaN(num)) {
+                    alert("Por favor, ingrese un número válido.");
+                    i--;
+                } else {
+                    suma += num;
+                    console.log(i);
+                }
+            }
+            document.getElementById("resultado").innerHTML += "La suma de los números es: " + suma;
+        }
+    </script>
+
+</body>
+
+</html>

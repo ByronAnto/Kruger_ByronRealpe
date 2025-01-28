@@ -1,0 +1,35 @@
+
+
+.parent {
+    display: flex;
+    border:3px solid rgb(9, 107, 19);
+    flex-direction: row;
+    height: 60vh;
+    }
+
+.flex {
+    display: flex;
+    border:3px solid salmon;
+    flex-direction: row;
+    height: calc(60vh-80px);
+    }
+.flex2 {
+    display: flex;
+    border:3px solid rgb(107, 19, 9);
+    flex-direction: column;
+    height: calc(60vh-80px);
+    }
+.flex1{
+    display: flex;
+    border:120px solid rgb(107, 19, 9);
+    flex-direction: row;
+    height: calc(70vh-50px);
+}
+.flex2{
+    display: flex;
+    border:70px solid rgb(9, 107, 16);
+    flex-direction: row;
+    height: calc(60vh-50px);
+}
+
+    
