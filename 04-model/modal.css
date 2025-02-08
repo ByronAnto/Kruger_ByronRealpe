@@ -1,0 +1,68 @@
+/* Estilos generales del modal */
+.modal {
+    display: none; /* Oculto por defecto */
+    position: fixed; /* Fijo en la pantalla */
+    z-index: 1; /* Por encima de otros elementos */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Habilita scroll si el contenido es muy largo */
+    background-color: rgba(0,0,0,0.4); /* Fondo oscuro semitransparente */
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    margin: 15% auto; /* Centrado vertical y horizontal */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Ajusta al tamaño que desees */
+    max-width: 600px; /* Ancho máximo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  .close-modal-x {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .modal-header, .modal-body {
+    padding: 10px;
+    text-align: center; /* Centra el texto del título y botones */
+  }
+  
+  .modal-footer {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Estilos para el enlace "Click aquí para abrir el modal" */
+  .open-modal {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  /* Estilos para los botones "Confirmar" y "Cerrar" */
+  .confirm-button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px; /* Espacio entre botones */
+    border-radius: 5px; /* Bordes redondeados */
+  }
+  
+  .close-button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Bordes redondeados */
+  }

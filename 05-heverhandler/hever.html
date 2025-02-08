@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mini Proyecto 1</title>
+<link rel="stylesheet" href="./hever.css">
+</head>
+<body class="backGroundBody">
+
+<h1>¿Con qué letra empieza?</h1>
+<h1 class="countQuestion">Pregunta número 1</h1>
+
+<div class="container">
+    <div class="left">
+        <div class="imgGuess">
+            <img id="imgToGuess" src="images/short.png" alt="Imagen a adivinar">
+        </div>
+    </div>
+    <div class="right">
+        <div class="input">
+            <input type="text" id="input" placeholder="Escribe tu respuesta aquí">
+            <button class="btn play">Jugar</button>
+        </div>
+        <div class="output">
+            <h2 class="message">Número correcto</h2>
+            <h2 class="score">Puntuación: 0</h2>
+            <h2 class="highscore">🍭 Puntuación más alta: 0</h2>
+        </div>
+        <div class="playAgain hidden">
+            <button>Juego terminado - Jugar de nuevo</button>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div id="gameOverModal" class="modal">
+  <div class="modal-content">
+    <span class="close-modal">&times;</span>
+    <h2>Juego Terminado</h2>
+    <p>Has cometido 3 errores.</p>
+    <button id="restartButton" class="btn">Reiniciar Juego</button>
+  </div>
+</div>
+
+<script src="./hever.js"></script>
+</body>
+</html>
